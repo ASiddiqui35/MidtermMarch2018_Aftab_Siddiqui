@@ -9,11 +9,5 @@ public class Pattern {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
-		
-
-		
-		
-		
-
 	}
 }

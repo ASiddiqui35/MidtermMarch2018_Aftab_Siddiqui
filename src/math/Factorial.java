@@ -12,5 +12,19 @@ public class Factorial {
          *
          */
 
+        Factorial rc = new Factorial();
+
+        System.out.println("Factorial:" + rc.getFactorial(5));
+    }
+
+    public int getFactorial(int number) {
+        int result = 0;
+        if (number == 1) {
+            return 1;
+        } else {
+            result = number * getFactorial(number - 1);
+            System.out.print("Returned" + result);
+            return result;
+        }
     }
 }

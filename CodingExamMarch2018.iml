@@ -43,5 +43,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="mongo-java-driver-3.4.0" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.41-bin" level="project" />
+    <orderEntry type="library" name="testng-6.8.5" level="project" />
   </component>
 </module>

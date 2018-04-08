@@ -24,15 +24,15 @@ public class Numbers {
 		
 		int [] num = new int[1000000];
 		storeRandomNumbers(num);
-		ConnectDB connectDB = new ConnectDB();
+		//ConnectDB connectDB = new ConnectDB();
 		//Selection Sort
 		Sort algo = new Sort();
 		algo.selectionSort(num);
 		long selectionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
-        connectDB.insertDataFromArrayToMySql(num, "selection_sort", "SortingNumbers");
-        List<String> numbers = connectDB.readDataBase("selection_sort", "SortingNumbers");
-        printValue(numbers);
+        //connectDB.insertDataFromArrayToMySql(num, "selection_sort", "SortingNumbers");
+        //List<String > numbers = connectDB.readDataBase("selection_sort", "SortingNumbers");
+       // printValue(numbers);
 		int n = num.length;
 		randomize (num, n);
 		//Insertion Sort
