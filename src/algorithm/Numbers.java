@@ -8,7 +8,7 @@ import java.util.Random;
 /*
  *Created by mrahman on 04/02/2018.
  */
-public class Numbers {
+//public class Numbers {
 
 	/*
 	 * Show all the different kind of sorting algorithm by applying into (num array).
@@ -20,7 +20,8 @@ public class Numbers {
 	 *
 	 */
 
-	public static void main(String[] args) throws Exception {
+	/*/
+	/*public static void main(String[] args) throws Exception {
 		
 		int [] num = new int[10];
 		storeRandomNumbers(num);
@@ -73,4 +74,4 @@ public class Numbers {
 			System.out.println(st);
 		}
 	}
-}
+}*/

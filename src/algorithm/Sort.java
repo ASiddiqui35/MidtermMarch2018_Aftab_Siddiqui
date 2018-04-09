@@ -1,15 +1,15 @@
-package algorithm;
+//package algorithm;
 
-public class Sort {
+//public class Sort {
 
-    long executionTime = 0;
+   // long executionTime = 0;
     /*
      * Please implement all the sorting algorithm. Feel free to add helper methods.
      * Store all the sorted data into one of the databases.
      */
 
 
-    public int[] selectionSort(int[] array) {
+   /* public int[] selectionSort(int[] array) {
         final long startTime = System.currentTimeMillis();
         int[] list = array;
 
@@ -119,9 +119,9 @@ public class Sort {
 
 
         return list;
-    }
+    }*/
 
-    public  int[] heapSort(int[] array) {
+  /*  public  int[] heapSort(int[] array) {
         int[] list = array;
         //implement here
         buildheap(array);
@@ -243,7 +243,7 @@ public class Sort {
                 }
             return 0;
             }
-        
+
         
 
         return list;
@@ -255,3 +255,4 @@ public class Sort {
         }
     }
 }
+*/
