@@ -27,6 +27,7 @@ public class Fibonacci {
         for (Integer in : list)
             System.out.println(in);
         ConnectDB connectDB = new ConnectDB();
-        connectDB.insertDataFromArrayListToMySql(list, "mathFibonacci", "number");
+        //connectDB.insertDataFromArrayListToMySql(list, "mathFibonacci", "number");
 
-}}
+}
+}

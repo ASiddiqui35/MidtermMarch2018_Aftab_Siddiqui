@@ -1,15 +1,15 @@
-//package algorithm;
+package algorithm;
 
-//public class Sort {
+public class Sort {
 
-   // long executionTime = 0;
+    // long executionTime = 0;
     /*
      * Please implement all the sorting algorithm. Feel free to add helper methods.
      * Store all the sorted data into one of the databases.
      */
 
 
-   /* public int[] selectionSort(int[] array) {
+    public int[] selectionSort(int[] array) {
         final long startTime = System.currentTimeMillis();
         int[] list = array;
 
@@ -24,13 +24,15 @@
 
         }
 
+
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
-        this.executionTime = executionTime;
+        //this.executionTime = executionTime;
         return list;
     }
+}
 
-    public int[] insertionSort(int[] array) {
+    /*public int[] insertionSort(int[] array) {
         final long startTime = System.currentTimeMillis();
         int[] list = array;
         //implement here

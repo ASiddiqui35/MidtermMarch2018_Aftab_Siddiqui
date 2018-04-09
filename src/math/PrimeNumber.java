@@ -36,7 +36,7 @@ public class PrimeNumber {
 
 
 		try {
-			connectDB.insertDataFromArrayListToMySql(list, "mathPrime", "number");
+			//connectDB.insertDataFromArrayListToMySql(list, "mathPrime", "number");
 			lowestValue = connectDB.readDataBase("mathPrime", "number");
 		} catch (Exception e) {
 			e.printStackTrace();
