@@ -12,7 +12,7 @@ public class LowestNumber {
 		 * Use one of the databases from mysql or mongodb to store and to retrieve.
 		 */
 		int array[] = {211, 110, 99, 34, 67, 89, 67, 456, 321, 456, 78, 90, 45, 32, 56, 78, 90, 54, 32, 123, 67, 5, 679, 54, 32, 65};
-	int a = LowestNumber.lowestNumber(array);
+		int a = LowestNumber.lowestNumber(array);
 		System.out.println(a);
 		ConnectDB connectDB = new ConnectDB();
 		List<String> lowestValue = new ArrayList<String>();
@@ -28,10 +28,8 @@ public class LowestNumber {
 			System.out.println(st);
 		}
 	}
-
-
-	//find lowest number from the array
-	public static int lowestNumber(int a[]) {
+		//find lowest number from the array
+		public static int lowestNumber(int a[]) {
 		int min = a[0];
 
 		for (int i = 1; i < a.length; i++){

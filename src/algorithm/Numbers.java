@@ -22,7 +22,7 @@ public class Numbers {
 
 	public static void main(String[] args) throws Exception {
 		
-		int [] num = new int[1000000];
+		int [] num = new int[10];
 		storeRandomNumbers(num);
 		//ConnectDB connectDB = new ConnectDB();
 		//Selection Sort
@@ -32,7 +32,7 @@ public class Numbers {
 		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
         //connectDB.insertDataFromArrayToMySql(num, "selection_sort", "SortingNumbers");
         //List<String > numbers = connectDB.readDataBase("selection_sort", "SortingNumbers");
-       // printValue(numbers);
+       printValue(numbers);
 		int n = num.length;
 		randomize (num, n);
 		//Insertion Sort
@@ -52,7 +52,7 @@ public class Numbers {
 	public static void storeRandomNumbers(int [] num){
 		Random rand = new Random();
 		for(int i=0; i<num.length; i++){
-			num[i] = rand.nextInt(1000000);
+			num[i] = rand.nextInt(100);
 		}
 	}
 
