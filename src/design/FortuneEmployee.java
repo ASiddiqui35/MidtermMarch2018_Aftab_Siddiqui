@@ -14,7 +14,10 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+		EmployeeInfo eml1 = new EmployeeInfo(12);
+		eml1.setAccnumber(337);
+		eml1.employeeName("Aftab Siddqui");
+		eml1.calculateSalary(75000,5000);
 
 
 	}

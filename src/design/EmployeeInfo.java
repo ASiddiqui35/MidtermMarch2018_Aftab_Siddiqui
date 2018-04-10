@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo extends AbstractEmployee{
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -21,6 +21,32 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
+	int employeeId;
+	String name;
+	private String emgContac;
+
+	public String getEmgContac() {
+		return emgContac;
+	}
+
+	public void setEmgContac(String emgContac) {
+		this.emgContac = emgContac;
+	}
+
+
+	private int accnumber;
+
+	public int getAccnumber() {
+		return accnumber;
+	}
+
+	public void setAccnumber(int accnumber) {
+		this.accnumber = accnumber;
+	}
+
+
+
+
 	
 	/*
 	 * You must implement the logic for below 2 methods and 
@@ -33,9 +59,11 @@ public class EmployeeInfo {
 	 * Must implement below constructor.
 	 */
 	public EmployeeInfo(int employeeId){
-		
+		this.employeeId = employeeId;
 	}
     public EmployeeInfo(String name, int employeeId){
+		this.employeeId =employeeId;
+		this.name = name;
 		
 	}
 	
@@ -47,9 +75,21 @@ public class EmployeeInfo {
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
-	public static int calculateEmployeeBonus(int numberOfYearsWithCompany){
+
+	public static int calculateEmployeeBonus(int performance, int salary){
 		int total=0;
+
+
 		//logic has to written chech then in UnitTesting
+		if ( performance==100){
+			total+=(salary*10)/100;
+		}
+		else if (performance==80){
+			total+=(salary*8)/100;
+			}
+			else if (performance ==70){
+			total+=(salary*7)/100;
+		}else{total = total;}
 
 		return total;
 	}
@@ -75,6 +115,48 @@ public class EmployeeInfo {
 
 		return total;
 	}
+
+
+	public int employeeId(int employeeId) {
+		this.employeeId= employeeId;
+		return employeeId;
+	}
+
+	public String employeeName(String name) {
+		this.name=name;
+		return name;
+	}
+
+
+	public void assignDepartment(String asd) {
+		System.out.println(asd);
+	}
+
+
+	@Override
+	public int employeeId() {
+		return 0;
+	}
+
+	@Override
+	public String employeeName() {
+		return null;
+	}
+
+	@Override
+	public void assignDepartment() {
+
+	}
+
+	public int calculateSalary() {
+		return 0;
+	}
+
+	@Override
+	public void benefitLayout() {
+
+	}
+
 	private static class DateConversion {
 
 		public DateConversion(Months months){}
