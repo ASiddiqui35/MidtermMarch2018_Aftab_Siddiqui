@@ -1,32 +1,67 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. To orgainize and save data. It also allows easy access.
 What are the various operations that can be performed on different Data Structures?
+A. Create, Update, Search and Detele.
 List out the areas in which data structures are applied extensively?
+A. Banking, Academia, Social Media, eCommerce. Basically everywhere where people have to deal with information.
 what is an Array?
+A. Array is a data structure.
 what is the difference between the Array and ArrayList?
+A. Array has fixed size and ArrayList can grow dynamically.
 what is LinkedList?
+A. Data structures composed of nodes containing next node address and data.
 How is an Array different from Linked List?
+A. Same as Array vs. ArrayList.
 what is queue?
+A. It is a data structure that follow first in first out and last in last out which is opposite of stack.
 what is stack?
+A. Stack is a data structure that follows FILO and LIFO.
 what is FIFO and LIFO?
+A. These are the short version for first in fisrst out and last in first out accordingly.
 what is the order of complexity?
+A.
 what is the best case to search an element from an array?
+A. If the elemnt that we are looking for is the first one in the array.
 what is the worst case to search an element from an array?
+A. If the element is located in the at the end of the array.
 what is tree in data structure?
+A.Tree is a hierarchical non linear data structure.
 what is graph in data structure?
+A. Graph data structre is composed of data, address and vertices. This data structure optimises route.
 what is the difference between the HashTable and HashMap?
+A.HashTable is synchronized and does not accept null keys or values and HasMap is unsynchronized and accepts null values
+    null keys.
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. It the exception for searching, inserting elments with index that are outside of the arrays size. Occurs when such
+    request are made.
 What are the different ways of copying an array into another array?
+A. Using for loops, arraycopy method from System class or clone() method from object class.
 What is difference between an array and a linked list?
+A. Array is like a container that holds data and linked list abstract.
 What is DFS and BFS?
+A.Depth first search and breadth frist search are algorithms fro traversing and searching in Graph data structure.
 What is Recursion?
+A. It is the process of the method calling itself.
 What are linear and non linear data Structures?
+A.In linear data structures data is organized in a sequential fashion meaning one is places after the other. In non linear
+    data placement is not sequential, one data can be connected to multiple other.
 What is Big-(O)-notation?
+A. It is the notation for represting the time complexity of the sorting algorithms.
 Outlined different kind of sorting algorithm with time complexity?
+A. i. Selection Sort:
+   ii. Merge Sort.
+   iii. Shell Sort.
+   iv. Insertion Sort.
+   v. Bubble sort: Assumes the left most item the lareges and keeps comparing it to the elements on the right, upon finding
+   larger element it stops moving to the right and the newly found lager one does the same util the lagest value occupies
+   the right most postion.
+   vi. Bucket Sort.
+   vii. Quick Sort.
+   viii. Heap Sort.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

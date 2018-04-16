@@ -58,7 +58,7 @@ public class EmployeeInfo extends AbstractEmployee{
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
-	public EmployeeInfo(int employeeId){
+	public EmployeeInfo(){
 		this.employeeId = employeeId;
 	}
     public EmployeeInfo(String name, int employeeId){

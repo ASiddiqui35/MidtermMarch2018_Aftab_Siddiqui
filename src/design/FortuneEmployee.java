@@ -14,11 +14,14 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		EmployeeInfo eml1 = new EmployeeInfo(12);
-		eml1.setAccnumber(337);
-		eml1.employeeName("Aftab Siddqui");
-		eml1.calculateSalary(75000,5000);
+		EmployeeInfo eml1 = new EmployeeInfo();
+		eml1.setAccnumber(4226);
+		String n = eml1.employeeName("Aftab Siddqui");
+		int id = eml1.employeeId(337);
+		double tsal = eml1.calculateSalary(75000,5000);
+		eml1.setEmgContac("Anjam");
 
+		System.out.println("Name: "+n+", "+"ID: "+id+", "+"TSalary: "+tsal+", "+"Emergency Cont: "+eml1.getEmgContac());
 
 	}
 

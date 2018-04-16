@@ -44,8 +44,8 @@ public class ProcessStudentInfo {
 		//Declare a Map with List<String> into it.
 		Map<String, List<Student>> list = new LinkedHashMap<String, List<Student>>();
 				
-				/*Declare 2 ArrayList with Student data type to store Selenium student into one of the ArrayList and
-				  Qtp student into another ArrayList. */
+		/*Declare 2 ArrayList with Student data type to store Selenium student into one of the ArrayList and
+		Qtp student into another ArrayList. */
 
 		List<Student> seleniumStudents = new ArrayList<Student>();
 		List<Student> qtpStudents = new ArrayList<Student>();

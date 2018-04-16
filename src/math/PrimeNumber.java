@@ -24,29 +24,29 @@ public class PrimeNumber {
 		for (int i = 2; i < 1000000; i++) {
 			if (isPrime(i)) {
 				list.add(i);
-				//System.out.println(i);
+				System.out.println(i);
 				counter++;
 
 			}
 		}
 		/*for (Integer in : list)
 			System.out.println(in);*/
-		List<String> lowestValue = new ArrayList<String>();
-		ConnectDB connectDB = new ConnectDB();
+		//List<String> lowestValue = new ArrayList<String>();
+		//ConnectDB connectDB = new ConnectDB();
 
 
 		try {
 			//connectDB.insertDataFromArrayListToMySql(list, "mathPrime", "number");
-			lowestValue = connectDB.readDataBase("mathPrime", "number");
+			//lowestValue = connectDB.readDataBase("mathPrime", "number");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("Data is reading from the Table (mathPrime) and displaying to the console");
-		for (String st : lowestValue) {
-			System.out.println(st);
+		//System.out.println("Data is reading from the Table (mathPrime) and displaying to the console");
+		//for (String st : lowestValue) {
+			//System.out.println(st);
 			System.out.println("total number of prime numbers" + counter);
 		}
-	}
+	//}
 		public static boolean isPrime ( int number){
 			if (number % 2 == 0) {
 				return false;
